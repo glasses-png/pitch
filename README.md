@@ -1,7 +1,6 @@
-# pitch-world
+# One-minute-pitch
 ## Author
-
-[Owiti-Charles](https://github.com/Owiti-Charles)
+Charlotte Chelang'at
 
 # Description
 This  is a flask application that allows users to post one minute pitches and also allows other users who have signed up to comment and upvote or downvote a pitch. It also allows a person to signup to be able to access the functionalities of the application
@@ -9,9 +8,6 @@ This  is a flask application that allows users to post one minute pitches and al
 ## Live Link
 [View Site](https://pitchworldcha.herokuapp.com)
 
-## Screenshot
-
-<img src="https://raw.githubusercontent.com/Owiti-Charles/pitch-world/master/app/static/photos/scrnew.png" width="900px" height="440px">
 
 ## User Story
 
@@ -40,7 +36,7 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/Owiti-Charles/pitch-world.git
+  https://github.com/glasses-png/pitch.git
   ```
 2. Move to the folder and install requirements
   ```bash
@@ -64,18 +60,18 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Technology used
 
-* [Python3.6](https://www.python.org/)
-* [Flask](http://flask.pocoo.org/)
-* [Heroku](https://heroku.com)
+* Python3.6
+* Flask
+* Heroku
 
 
 ## Known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
 
-## Contact Information 
+## Contact Information
 
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
+If you have any question or contributions, please email me at cchelangat16@gmail.com
 
 ## License
-* *MIT License:*
-* Copyright (c) 2019 **Owiti Charles**
+* MIT License
+* Copyright (c) 2020 **charlotte chelang'at**
