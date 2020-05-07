@@ -8,10 +8,10 @@ from .. import db,photos
 @main.route('/')
 def index():
     pitches = Pitch.query.all()
-    job = Pitch.query.filter_by(category = 'Job').all() 
-    event = Pitch.query.filter_by(category = 'Events').all()
+    work = Pitch.query.filter_by(category = 'Work').all() 
+    product = Pitch.query.filter_by(category = 'Product').all()
     advertisement = Pitch.query.filter_by(category = 'Advertisement').all()
-    return render_template('index.html', job = job,event = event, pitches = pitches,advertisement= advertisement)
+    return render_template('index.html', work = work,product = product, pitches = pitches,advertisement= advertisement)
 
 @main.route('/create_new', methods = ['POST','GET'])
 @login_required

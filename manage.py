@@ -2,8 +2,10 @@ from flask_script import Manager, Server
 from flask_migrate import Migrate, MigrateCommand
 from app import create_app,db
 from app.models import User
+from flask_wtf.csrf import CSRFProtect, CSRFError
 
-app = create_app('production')
+app = create_app('development')
+csrf = CSRFProtect(app)
 
 manager = Manager(app)
 migrate = Migrate(app,db)
