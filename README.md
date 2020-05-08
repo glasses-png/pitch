@@ -23,10 +23,6 @@ This  is a flask application that allows users to post one minute pitches and al
 | Select comment button | **Comment** | Form that you input your comment|
 | Click on submit |  | Redirect to all comments tamplate with your comment and other comments|
 
-
-
-
-
 ## Development Installation
 To get the code..
 
@@ -52,6 +48,9 @@ To get the code..
   python3.6 manage.py test
   ```
 Open the application on your browser `127.0.0.1:5000`.
+
+## Bugs
+No known bugs.
 
 
 ## Technology used
